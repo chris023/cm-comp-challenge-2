@@ -1,5 +1,6 @@
 body {
   background-color: #efefef;
+  color: #575757;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -171,6 +172,12 @@ nav {
   font-size: 32px;
 }
 
+.card-price {
+  color: #858585;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
 .card-row1 {
   color: #FFF;
   display: flex;
@@ -268,8 +275,12 @@ nav {
   cursor: pointer;
 }
 
-.sort-by option:hover {
+option:hover {
   cursor: pointer;
+}
+
+option {
+  color: #575757;
 }
 
 .sort-container {
