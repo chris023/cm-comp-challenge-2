@@ -1,0 +1,288 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Static Comp 2</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo:700|Open+Sans" rel="stylesheet">  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class='login-menu'>
+      <img class='user-menu-ico' src="images/user-filled-50.png">
+      <p class='user-menu'>example@example.com &#x25BC</p>
+    </div>
+    <nav>
+      <ul class='nav-links'>
+        <li class='nav-links-first-li'>
+          <img class='nav-image' src="images/in-transit-48.png">
+          <p>DELIVERY</p>
+        </li>
+        <li>
+          <img class='nav-image' src='images/coffee-to-go-100.png'>
+          <p>PICKUP</p>
+        </li>
+        <li>
+          <img class='nav-image' src='images/restaurant-table-50.png'>
+          <p>RESTAURANTS</p>
+        </li>
+      </ul>
+    </nav>
+    <div class='header-logo'>
+        <p class='logo logo-text'>2Eat!</p>
+        <img class='logo logo-ico' src="images/taco-52.png">
+      </div>
+  </header>
+  <main>
+    <div class='card-header-container'>
+      <h1>Grub Near Me</h1>
+      <div class='sort-container'>
+        <p>Sort By: </p>
+        <select class='sort-by'>
+          <option value="default">Featured</option>
+          <option value="a">Most Loved</option>
+          <option value="b">Most Ordered This Month</option>
+          <option value="c">Price: Low To High</option>
+          <option value="d">Price: High To Low</option>
+        </select> 
+      </div>
+    </div>
+    <section class="grid-container">
+      <article class='card avocado-toast'>
+        <div class='card-image image-avocado'>
+          <div class='card-image-overlay'>
+            <div class='card-row1'>
+              <div class='card-fav-icon'></div>
+              <div class='card-views-container'>
+                <p class='card-views no-margin'>Loved</p>
+                <p class='card-views-counter no-margin'>187</p>
+                <p class='card-views no-margin'>Times</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-row3 card-cell">
+          <p class='card-food-name no-margin'>Avocado Toast</p>
+          <p class='card-price no-margin'>$5.99</p>
+        </div>
+        <div class="card-row4 card-cell">
+          <a class='card-busi-link' href="#">Order Now!</a>
+        </div>
+        <div class="card-row5 card-cell">
+          <p class='card-business-hours no-margin'>Open Today until 2:00pm</p>
+          <p class="card-business-name no-margin">Millenial's Brunch</p>
+        </div>
+        <div class="card-row6 card-cell">
+          <p class="card-orders-text no-margin">Orders this month</p>
+          <p class="card-orders no-margin">86</p>
+        </div>
+      </article>
+      <article class='card bacon-burger'>
+        <div class='card-image image-bacon-burger'>
+          <div class='card-image-overlay'>
+            <div class='card-row1'>
+              <div class='card-fav-icon'></div>
+              <div class='card-views-container'>
+                <p class='card-views no-margin'>Loved</p>
+                <p class='card-views-counter no-margin'>143</p>
+                <p class='card-views no-margin'>Times</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-row3 card-cell">
+          <p class='card-food-name no-margin'>The Bacon Classic</p>
+          <p class='card-price no-margin'>$8.99</p>
+        </div>
+        <div class="card-row4 card-cell">
+          <a class='card-busi-link' href="#">Order Now!</a>
+        </div>
+        <div class="card-row5 card-cell">
+          <p class='card-business-hours no-margin'>Open Today until 11:00pm</p>
+          <p class="card-business-name no-margin">Joe's American Classics</p>
+        </div>
+        <div class="card-row6 card-cell">
+          <p class="card-orders-text no-margin">Orders this month</p>
+          <p class="card-orders no-margin">37</p>
+        </div>
+      </article>
+      <article class='card chicken-burrito'>
+        <div class='card-image image-chicken-burrito'>
+          <div class='card-image-overlay'>
+            <div class='card-row1'>
+              <div class='card-fav-icon card-fav-icon-selected'></div>
+              <div class='card-views-container'>
+                <p class='card-views no-margin'>Loved</p>
+                <p class='card-views-counter no-margin'>407</p>
+                <p class='card-views no-margin'>Times</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-row3 card-cell">
+          <p class='card-food-name no-margin'>Stuffed Chicken 'Rito</p>
+          <p class='card-price no-margin'>$7.49</p>
+        </div>
+        <div class="card-row4 card-cell">
+          <a class='card-busi-link' href="#">Order Now!</a>
+        </div>
+        <div class="card-row5 card-cell">
+          <p class='card-business-hours no-margin'>Open Today until 2:00pm</p>
+          <p class="card-business-name no-margin">Mexicali Stuffed</p>
+        </div>
+        <div class="card-row6 card-cell">
+          <p class="card-orders-text no-margin">Orders this month</p>
+          <p class="card-orders no-margin">120</p>
+        </div>
+      </article>
+      <article class='card chicken-salad'>
+        <div class='card-image image-chicken-salad'>
+          <div class='card-image-overlay'>
+            <div class='card-row1'>
+              <div class='card-fav-icon'></div>
+              <div class='card-views-container'>
+                <p class='card-views no-margin'>Loved</p>
+                <p class='card-views-counter no-margin'>98</p>
+                <p class='card-views no-margin'>Times</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-row3 card-cell">
+          <p class='card-food-name no-margin'>Your Mom's Chicken Salad</p>
+          <p class='card-price no-margin'>$6.99</p>
+        </div>
+        <div class="card-row4 card-cell">
+          <a class='card-busi-link' href="#">Order Now!</a>
+        </div>
+        <div class="card-row5 card-cell">
+          <p class='card-business-hours no-margin'>Open Today until 2:00pm</p>
+          <p class="card-business-name no-margin">Healthy Greens</p>
+        </div>
+        <div class="card-row6 card-cell">
+          <p class="card-orders-text no-margin">Orders this month</p>
+          <p class="card-orders no-margin">22</p>
+        </div>
+      </article>
+      <article class='card grilled-salmon'>
+        <div class='card-image image-grilled-salmon'>
+          <div class='card-image-overlay'>
+            <div class='card-row1'>
+              <div class='card-fav-icon'></div>
+              <div class='card-views-container'>
+                <p class='card-views no-margin'>Loved</p>
+                <p class='card-views-counter no-margin'>187</p>
+                <p class='card-views no-margin'>Times</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-row3 card-cell">
+          <p class='card-food-name no-margin'>Avocado Toast</p>
+          <p class='card-price no-margin'>$5.99</p>
+        </div>
+        <div class="card-row4 card-cell">
+          <a class='card-busi-link' href="#">Order Now!</a>
+        </div>
+        <div class="card-row5 card-cell">
+          <p class='card-business-hours no-margin'>Open Today until 2:00pm</p>
+          <p class="card-business-name no-margin">Millenial's Brunch</p>
+        </div>
+        <div class="card-row6 card-cell">
+          <p class="card-orders-text no-margin">Orders this month</p>
+          <p class="card-orders no-margin">86</p>
+        </div>
+      </article>
+      <article class='card indian-naan'>
+        <div class='card-image image-indian-naan'>
+          <div class='card-image-overlay'>
+            <div class='card-row1'>
+              <div class='card-fav-icon'></div>
+              <div class='card-views-container'>
+                <p class='card-views no-margin'>Loved</p>
+                <p class='card-views-counter no-margin'>187</p>
+                <p class='card-views no-margin'>Times</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-row3 card-cell">
+          <p class='card-food-name no-margin'>Avocado Toast</p>
+          <p class='card-price no-margin'>$5.99</p>
+        </div>
+        <div class="card-row4 card-cell">
+          <a class='card-busi-link' href="#">Order Now!</a>
+        </div>
+        <div class="card-row5 card-cell">
+          <p class='card-business-hours no-margin'>Open Today until 2:00pm</p>
+          <p class="card-business-name no-margin">Millenial's Brunch</p>
+        </div>
+        <div class="card-row6 card-cell">
+          <p class="card-orders-text no-margin">Orders this month</p>
+          <p class="card-orders no-margin">86</p>
+        </div>
+      </article>
+      <article class='card pancake-breakfast'>
+        <div class='card-image image-pancake-breakfast'>
+          <div class='card-image-overlay'>
+            <div class='card-row1'>
+              <div class='card-fav-icon'></div>
+              <div class='card-views-container'>
+                <p class='card-views no-margin'>Loved</p>
+                <p class='card-views-counter no-margin'>187</p>
+                <p class='card-views no-margin'>Times</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-row3 card-cell">
+          <p class='card-food-name no-margin'>Avocado Toast</p>
+          <p class='card-price no-margin'>$5.99</p>
+        </div>
+        <div class="card-row4 card-cell">
+          <a class='card-busi-link' href="#">Order Now!</a>
+        </div>
+        <div class="card-row5 card-cell">
+          <p class='card-business-hours no-margin'>Open Today until 2:00pm</p>
+          <p class="card-business-name no-margin">Millenial's Brunch</p>
+        </div>
+        <div class="card-row6 card-cell">
+          <p class="card-orders-text no-margin">Orders this month</p>
+          <p class="card-orders no-margin">86</p>
+        </div>
+      </article>
+      <article class='card sauteed-vegetables'>
+        <div class='card-image image-sauteed-vegetables'>
+          <div class='card-image-overlay'>
+            <div class='card-row1'>
+              <div class='card-fav-icon'></div>
+              <div class='card-views-container'>
+                <p class='card-views no-margin'>Loved</p>
+                <p class='card-views-counter no-margin'>187</p>
+                <p class='card-views no-margin'>Times</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-row3 card-cell">
+          <p class='card-food-name no-margin'>Avocado Toast</p>
+          <p class='card-price no-margin'>$5.99</p>
+        </div>
+        <div class="card-row4 card-cell">
+          <a class='card-busi-link' href="#">Order Now!</a>
+        </div>
+        <div class="card-row5 card-cell">
+          <p class='card-business-hours no-margin'>Open Today until 2:00pm</p>
+          <p class="card-business-name no-margin">Millenial's Brunch</p>
+        </div>
+        <div class="card-row6 card-cell">
+          <p class="card-orders-text no-margin">Orders this month</p>
+          <p class="card-orders no-margin">86</p>
+        </div>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
