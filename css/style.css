@@ -27,7 +27,7 @@ nav {
 .header-logo {
   align-items: flex-end;
   display: flex;
-  font-size: 48;
+  font-size: 48px;
   grid-column: -1;
   justify-content: flex-end;
   line-height: 0;
@@ -279,11 +279,74 @@ option:hover {
   cursor: pointer;
 }
 
-option {
-  color: #575757;
-}
-
 .sort-container {
   display: flex;
   align-items: center;
+}
+
+@media screen and (max-width: 850px) {
+
+  h1 {
+    display: none;
+  }
+
+  header {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  nav {
+    justify-content: center;
+  }
+
+  .card-header-container {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .grid-container {
+    margin: 0;
+  }
+
+  .header-logo {
+    display: flex;
+    grid-column: auto;
+    grid-row: 1;
+    justify-content: center;
+  }
+
+  .login-menu {
+    grid-column: auto;
+    grid-row: 1;
+    margin: 0;
+    position: absolute;
+    right: 5px;
+  }
+
+  .nav-links {
+    display: flex;
+  }
+
+  .nav-links li {
+    align-items: center;
+    flex-direction: column;
+    font-size: 10px;
+    width: 100%;
+  }
+
+  .sort-container {
+    display: none;
+  }
+
+  .user-menu span {
+    display: none;
+  }
+  .user-menu:after {
+    color: #FFF;
+    content: ' \25BC';
+  }
+
+  .user-menu-ico {
+    cursor: pointer;
+    margin-right: -12px;
+  }
 }
